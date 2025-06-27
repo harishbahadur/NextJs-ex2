@@ -1,0 +1,74 @@
+/* List 1 - app/page.module.css */
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #f3e5f5 0%, #fff8f6 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(179, 157, 219, 0.08);
+  padding: 2rem 1rem;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  background: linear-gradient(90deg, #b39ddb 0%, #f3e5f5 100%);
+  color: #7e57c2;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(179, 157, 219, 0.12);
+  padding: 2rem 1rem;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(179, 157, 219, 0.10);
+}
+
+.title {
+  position: absolute;
+  top: 32px;
+  left: 48px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  z-index: 10;
+  color: #ffccbc;
+  text-shadow: 1px 2px 8px #b39ddb44;
+}
+
+.navLinks {
+  position: absolute;
+  top: 32px;
+  right: 48px;
+}
+
+.navLinks ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li a {
+  color: #9575cd;
+  background: #fff8f6;
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  box-shadow: 0 1px 4px 0 #b39ddb22;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.navLinks li a:hover {
+  color: #fff8f6;
+  background: #ffccbc;
+  box-shadow: 0 2px 8px 0 #ffccbc44;
+}

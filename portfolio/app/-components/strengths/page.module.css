@@ -1,0 +1,40 @@
+.container {
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border-left: 6px solid #f3e5f5;
+}
+
+.heading {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #f3e5f5;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #3a3a3a;
+}
+
+.strengthSection {
+  margin-bottom: 1.5rem;
+}
+
+.subHeading {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  color: #b39ddb;
+}
+
+.strengthText {
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: #2d223a;
+  text-shadow: 0 1px 4px #fff6fa88;
+  line-height: 1.7;
+}

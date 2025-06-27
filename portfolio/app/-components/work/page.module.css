@@ -1,0 +1,47 @@
+.container {
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border-left: 6px solid #b39ddb;
+}
+
+.heading {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #b39ddb;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #3a3a3a;
+}
+
+.workList {
+  list-style: none;
+  padding: 0;
+}
+
+.workItem {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f3e5f5;
+  background: #fff8f6;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px 0 #b39ddb11;
+}
+
+.link {
+  font-size: 1rem;
+  color: #b39ddb;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: #ffccbc;
+}

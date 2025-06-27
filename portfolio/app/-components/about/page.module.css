@@ -1,0 +1,34 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border-left: 6px solid #b39ddb;
+}
+
+.heading {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #b39ddb;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #3a3a3a;
+}
+
+.imageSection {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 #b39ddb22;
+}

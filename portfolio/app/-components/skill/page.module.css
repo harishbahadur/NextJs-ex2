@@ -1,0 +1,30 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem 1.5rem;
+  background: var(--card-bg);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  border-left: 6px solid #b39ddb;
+}
+
+.heading {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #b39ddb;
+  font-weight: 700;
+}
+
+.text {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #3a3a3a;
+}
+
+.skillList {
+  list-style: disc inside;
+  padding-left: 0.5rem;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #b39ddb;
+}
